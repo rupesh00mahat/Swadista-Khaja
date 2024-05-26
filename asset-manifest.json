@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/swadista-khaja/static/css/main.b0289028.css",
+    "main.js": "/swadista-khaja/static/js/main.82de5522.js",
+    "static/media/mutton-ghee.jpg": "/swadista-khaja/static/media/mutton-ghee.8f4d5191ff15b840964a.jpg",
+    "static/media/prawn.jpg": "/swadista-khaja/static/media/prawn.9b2f5c17aadc5e7b6685.jpg",
+    "static/media/samosa.jpg": "/swadista-khaja/static/media/samosa.e7af1d050a6082a4e7dd.jpg",
+    "static/media/chicken.jpg": "/swadista-khaja/static/media/chicken.120e0591085a83e67905.jpg",
+    "static/media/coke.jpg": "/swadista-khaja/static/media/coke.c1eec69b52d637cc9446.jpg",
+    "static/media/sambar.jpg": "/swadista-khaja/static/media/sambar.d8ad79492e5d8575de37.jpg",
+    "static/media/kulfi.jpg": "/swadista-khaja/static/media/kulfi.814225f78c35836d4b9a.jpg",
+    "static/media/mutton.jpg": "/swadista-khaja/static/media/mutton.3af5cec7bb4fdbc7c804.jpg",
+    "static/media/jalebi.jpg": "/swadista-khaja/static/media/jalebi.06749e212bc471ebc13e.jpg",
+    "static/media/ice-cream.jpg": "/swadista-khaja/static/media/ice-cream.59e082bd39031ee7c3f9.jpg",
+    "static/media/crab-soup.jpeg": "/swadista-khaja/static/media/crab-soup.2446622a3c15f3bdb4e0.jpeg",
+    "static/media/biryani.jpg": "/swadista-khaja/static/media/biryani.6642cb094dd8674bfe5a.jpg",
+    "index.html": "/swadista-khaja/index.html",
+    "main.b0289028.css.map": "/swadista-khaja/static/css/main.b0289028.css.map",
+    "main.82de5522.js.map": "/swadista-khaja/static/js/main.82de5522.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0289028.css",
+    "static/js/main.82de5522.js"
+  ]
+}
