@@ -136,17 +136,15 @@ function Main() {
   ];
 
   return (
-    <Fragment>
-      <main id="website-main">
-        <MainSectionOne />
-        <MainShowCase />
-      </main>
+    <div className="menu-wrapper">
+      
       <h2 className="our-hot-dishes">Our Hot Dishes</h2>
       <div className="border-3p-orange"></div>
       <div className="categories">
-        {categories.map((category) => {
+        {categories.map((category, index) => {
           return (
             <div
+            key={index}
               onClick={() => {
                 changeSelectedCategory(category.name);
                 changeSelecCategory(category.name);
@@ -161,10 +159,10 @@ function Main() {
       </div>
       <div>
         <div id="dish-items">
-          {items.map((item) => {
+          {items.map((item, index) => {
             if (item.category.includes(selectedCategory)) {
               return (
-                <div className={`dish-item dish-item-${item.itemName}`}>
+                <div key={index} className={`dish-item dish-item-${item.itemName}`}>
                   <div className="dish-item-img-and-cart">
                     <img src={item.img} />
                     <button className="dish-item-cart">
@@ -188,7 +186,7 @@ function Main() {
           })}
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 }
 

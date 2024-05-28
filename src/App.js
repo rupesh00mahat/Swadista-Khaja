@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import "./style.css";
 import Footer from './footer'
 import {useEffect} from 'react';
+import { Outlet } from "react-router-dom";
 
 function App(props) {
   useEffect(() => {
@@ -21,7 +22,7 @@ function App(props) {
     <div className="App">
      <Navbar/>
       {/* Home Page */}
-     <Main/>
+     <Outlet/>
      <Footer/>
     </div>
   );

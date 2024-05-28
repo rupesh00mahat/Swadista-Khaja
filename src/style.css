@@ -155,6 +155,7 @@ body {
 
 .categories {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin-bottom: 20px;
@@ -382,4 +383,20 @@ h2.our-hot-dishes {
 }
 .selected-category .category-icon{
   background-color: #FACCD0;
+}
+#service-wrapper, #about, .menu-wrapper{
+  padding-top: 100px;
+  position: relative;
+}
+#navigation a{
+  text-decoration: none;
+  color: black;
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* Your styles for devices below desktop size here */
+  .dish-item{
+    width: 40%;
+  }
 }

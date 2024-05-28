@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { SiCodechef } from "react-icons/si";
 import { CiLogin } from "react-icons/ci";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
@@ -24,19 +25,19 @@ function Navbar() {
       <div className="wrapper flex">
         <h2 className="navbar-title">
           <SiCodechef />
-          <span className="navbar-text">Swadista Khaja</span>
+          <span className="navbar-text"><Link to={'/'}>Swadista Khaja</Link></span>
         </h2>
         <ul className="navigation-list flex">
-          <li>Home</li>
-          <li>Services</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Another</li>
+          <li><Link to={'/'}>Home</Link></li>
+          <li><Link to={'/menu'}>Menu</Link></li>
+          <li><Link to={'/service'}>Services</Link></li>
+          <li><Link to={'/about'}>About</Link></li>
+         
         </ul>
-        <button className={`login-logout-button ${isScrolled ? 'navbar-transparent': ''}`}>
+        {/* <button className={`login-logout-button ${isScrolled ? 'navbar-transparent': ''}`}>
           <CiLogin />
           <span>Login</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );
