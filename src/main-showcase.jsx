@@ -1,12 +1,11 @@
 import React from "react";
 import "./style.css";
+import MainLogo from './assets/main-logo.jpg'
 
 function MainShowCase() {
   return (
     <section id="main-showcase">
-      {/* <div className='red-bg-container'>
-hELLO
-        </div> */}
+     <img src={MainLogo} alt="Swadista khaja main logo"/>
     </section>
   );
 }

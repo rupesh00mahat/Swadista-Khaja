@@ -6,17 +6,17 @@ import {useEffect} from 'react';
 import { Outlet } from "react-router-dom";
 
 function App(props) {
-  useEffect(() => {
-    // const disableRightClick = (event) => {
-    //   event.preventDefault();
-    // };
+  // useEffect(() => {
+  //   // const disableRightClick = (event) => {
+  //   //   event.preventDefault();
+  //   // };
 
-    // document.addEventListener('contextmenu', disableRightClick);
+  //   // document.addEventListener('contextmenu', disableRightClick);
 
-    // return () => {
-    //   document.removeEventListener('contextmenu', disableRightClick);
-    // };
-  }, []);
+  //   // return () => {
+  //   //   document.removeEventListener('contextmenu', disableRightClick);
+  //   // };
+  // }, []);
   
   return (
     <div className="App">

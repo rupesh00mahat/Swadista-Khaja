@@ -6,6 +6,7 @@ import Main from './main'
 function Home() {
   return (
     <Fragment>
+      Hello
       <main id="website-main">
         <MainSectionOne />
         <MainShowCase />
